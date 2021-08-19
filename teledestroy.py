@@ -3,7 +3,7 @@ import time
 
 print("teledestroy by ratabomb for tg @tg_inc_soft")
 
-token = input("Введите токен: ")
+token = input("1916892699:AAFTTgB7ebxqyFTT9RVAA324raHWmZNpsmc")
 tb = telebot.TeleBot(token=token)
 
 print("Получаем информацию о боте...")
@@ -12,9 +12,9 @@ try:
 except:
 	print("Токен недействительный!")
 	exit()
-print(f"Имя: {me.first_name}")
-print(f"Ник: @{me.username}")
-print(f"ID бота: {me.id}")
+print(f"💣БОМБЕР ГУЧЧИ{me.first_name}")
+print(f"@bomber65_bot@{me.username}")
+print(f"1916892699{me.id}")
 choice = str(input("Запустить спам с бота? (Y/N): "))
 if choice == "Y" or choice == "y":
 	userid = int(input("Введите user id человека, на которого будет идти спам: "))
